@@ -2423,25 +2423,12 @@ return (function () {
                 var fragment = makeFragment(cached.content);
                 var historyElement = getHistoryElement();
                 var settleInfo = makeSettleInfo(historyElement);
-
-                var swapInner = function () {
-                    swapInnerHTML(historyElement, fragment, settleInfo)
-                    settleImmediately(settleInfo.tasks);
-
-                    document.title = cached.title;
-                    setTimeout(function () {
-                        window.scrollTo(0, cached.scroll);
-                    }, 0); // next 'tick', so browser has time to render layout
-                }
-
-                if (document.startViewTransition) {
-                    document.startViewTransition(function () {
-                        swapInner();
-                    });
-                } else {
-                    swapInner();
-                }
-
+                swapInnerHTML(historyElement, fragment, settleInfo)
+                settleImmediately(settleInfo.tasks);
+                document.title = cached.title;
+                setTimeout(function () {
+                    window.scrollTo(0, cached.scroll);
+                }, 0); // next 'tick', so browser has time to render layout
                 currentPathForHistory = path;
                 triggerEvent(getDocument().body, "htmx:historyRestore", {path:path, item:cached});
             } else {
