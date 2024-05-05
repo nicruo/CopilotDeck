@@ -1,0 +1,182 @@
+[
+  {
+    "Id": 1,
+    "Name": "The Helper",
+    "Prompt": "/help",
+    "Description": "Description 1",
+    "Type": "Command",
+    "Creator": "nicruo",
+    "CreatorGitHubHandle": "nicruo"
+  },
+  {
+    "Id": 2,
+    "Name": "The Fixer",
+    "Prompt": "Prompt 2",
+    "Description": "Description 2",
+    "Type": "Type 2",
+    "Creator": "Creator 2",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 2"
+  },
+  {
+    "Id": 3,
+    "Name": "Card 3",
+    "Prompt": "Prompt 3",
+    "Description": "Description 3",
+    "Type": "Type 3",
+    "Creator": "Creator 3",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 3"
+  },
+  {
+    "Id": 4,
+    "Name": "Card 4",
+    "Prompt": "Prompt 4",
+    "Description": "Description 4",
+    "Type": "Type 4",
+    "Creator": "Creator 4",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 4"
+  },
+  {
+    "Id": 5,
+    "Name": "Card 5",
+    "Prompt": "Prompt 5",
+    "Description": "Description 5",
+    "Type": "Type 5",
+    "Creator": "Creator 5",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 5"
+  },
+  {
+    "Id": 6,
+    "Name": "Card 6",
+    "Prompt": "Prompt 6",
+    "Description": "Description 6",
+    "Type": "Type 6",
+    "Creator": "Creator 6",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 6"
+  },
+  {
+    "Id": 7,
+    "Name": "Card 7",
+    "Prompt": "Prompt 7",
+    "Description": "Description 7",
+    "Type": "Type 7",
+    "Creator": "Creator 7",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 7"
+  },
+  {
+    "Id": 8,
+    "Name": "Card 8",
+    "Prompt": "Prompt 8",
+    "Description": "Description 8",
+    "Type": "Type 8",
+    "Creator": "Creator 8",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 8"
+  },
+  {
+    "Id": 9,
+    "Name": "Card 9",
+    "Prompt": "Prompt 9",
+    "Description": "Description 9",
+    "Type": "Type 9",
+    "Creator": "Creator 9",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 9"
+  },
+  {
+    "Id": 10,
+    "Name": "Card 10",
+    "Prompt": "Prompt 10",
+    "Description": "Description 10",
+    "Type": "Type 10",
+    "Creator": "Creator 10",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 10"
+  },
+  {
+    "Id": 11,
+    "Name": "Card 11",
+    "Prompt": "Prompt 11",
+    "Description": "Description 11",
+    "Type": "Type 11",
+    "Creator": "Creator 11",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 11"
+  },
+  {
+    "Id": 12,
+    "Name": "Card 12",
+    "Prompt": "Prompt 12",
+    "Description": "Description 12",
+    "Type": "Type 12",
+    "Creator": "Creator 12",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 12"
+  },
+  {
+    "Id": 13,
+    "Name": "Card 13",
+    "Prompt": "Prompt 13",
+    "Description": "Description 13",
+    "Type": "Type 13",
+    "Creator": "Creator 13",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 13"
+  },
+  {
+    "Id": 14,
+    "Name": "Card 14",
+    "Prompt": "Prompt 14",
+    "Description": "Description 14",
+    "Type": "Type 14",
+    "Creator": "Creator 14",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 14"
+  },
+  {
+    "Id": 15,
+    "Name": "Card 15",
+    "Prompt": "Prompt 15",
+    "Description": "Description 15",
+    "Type": "Type 15",
+    "Creator": "Creator 15",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 15"
+  },
+  {
+    "Id": 16,
+    "Name": "Card 16",
+    "Prompt": "Prompt 16",
+    "Description": "Description 16",
+    "Type": "Type 16",
+    "Creator": "Creator 16",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 16"
+  },
+  {
+    "Id": 17,
+    "Name": "Card 17",
+    "Prompt": "Prompt 17",
+    "Description": "Description 17",
+    "Type": "Type 17",
+    "Creator": "Creator 17",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 17"
+  },
+  {
+    "Id": 18,
+    "Name": "Card 18",
+    "Prompt": "Prompt 18",
+    "Description": "Description 18",
+    "Type": "Type 18",
+    "Creator": "Creator 18",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 18"
+  },
+  {
+    "Id": 19,
+    "Name": "Card 19",
+    "Prompt": "Prompt 19",
+    "Description": "Description 19",
+    "Type": "Type 19",
+    "Creator": "Creator 19",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 19"
+  },
+  {
+    "Id": 20,
+    "Name": "Card 20",
+    "Prompt": "Prompt 20",
+    "Description": "Description 20",
+    "Type": "Type 20",
+    "Creator": "Creator 20",
+    "CreatorGitHubHandle": "CreatorGitHubHandle 20"
+  }
+]
