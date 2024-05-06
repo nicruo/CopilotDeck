@@ -3,12 +3,12 @@
 
 // Write your JavaScript code.
 
-//navigate back if the previous page is available and same domain
-function back() {
-    if (document.referrer.indexOf(window.location.origin) !== -1) {
-        history.back();
-    }
-    else {
-        window.location = "https://localhost:32772/"
-    }
+function copyToClipboard(elementId) {
+    const element = document.querySelector("#"+elementId);
+    navigator.clipboard.writeText(element.textContent).then(function () {
+        alert("Copied to clipboard!");
+    })
+    .catch(function (error) {
+        alert(error);
+    });
 }

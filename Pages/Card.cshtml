@@ -5,15 +5,35 @@
 <div class="container">
     <div class="row">
         <div class="col-4 mx-auto">
-            <div id="card-@Model.Card.Id" style="view-transition-name: card-@Model.Card.Id;" class="card">
-                <div class="card-header">
-                    @Model.Card.Id - @Model.Card.Name
+            <div id="card-@Model.Card.Id" style="view-transition-name: card-@Model.Card.Id; border-width:7px 14px 4px 14px;" class="card bg-light border-primary">
+                <div class="card-header border-primary bg-primary rounded-0 text-light" style="border-width:7px;">
+                    <span class="text-secondary">@Model.Card.Id</span> @Model.Card.Name
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Prompt: @Model.Card.Prompt</p>
-                    <p class="card-text">Description: @Model.Card.Description</p>
+                    <div class="card-text">
+                        <p><em>Prompt:</em></p>
+                        <div class="fw-bold text-dark">
+                            <p id="prompt-@Model.Card.Id">@Model.Card.Prompt</p>
+                        </div>
+                        <p><em>Description:</em></p>
+                        <div>
+                            <p>@Model.Card.Description</p>
+
+                        </div>
+                        <a class="btn btn-secondary" onclick="copyToClipboard('prompt-@Model.Card.Id')">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-                <div class="card-footer" style="text-align:right">by: @Model.Card.Creator &#64;@Model.Card.CreatorGitHubHandle</div>
+                <div class="card-footer bg-primary rounded-0 text-light text-end" style="border-width:4px;">by: @Model.Card.Creator 
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                    </svg>
+                    <a href="https://github.com/@Model.Card.CreatorGitHubHandle">@Model.Card.CreatorGitHubHandle</a>
+                </div>
             </div>
         </div>
     </div>
