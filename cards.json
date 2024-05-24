@@ -5,7 +5,7 @@
     "Prompt": "/help",
     "Description": "List all GitHub Copilot Chat commands. Run this command frequently as the extension is changing and adding more commands.",
     "Type": "Command",
-    "Creator": "nicruo",
+    "Creator": "José Medeiros",
     "CreatorGitHubHandle": "nicruo"
   },
   {
@@ -14,7 +14,7 @@
     "Prompt": "/fix",
     "Description": "Propose a fix for the problems in the selected code. The selected code is also the file currently open.",
     "Type": "Command",
-    "Creator": "nicruo",
+    "Creator": "José Medeiros",
     "CreatorGitHubHandle": "nicruo"
   },
   {
@@ -23,7 +23,7 @@
     "Prompt": "/explain",
     "Description": "Explain how the code in your active editor works.",
     "Type": "Command",
-    "Creator": "nicruo",
+    "Creator": "José Medeiros",
     "CreatorGitHubHandle": "nicruo"
   },
   {
@@ -32,16 +32,25 @@
     "Prompt": "/test",
     "Description": "Generate unit tests for the selected code. The selected code is also the file currently open.",
     "Type": "Command",
-    "Creator": "nicruo",
+    "Creator": "José Medeiros",
     "CreatorGitHubHandle": "nicruo"
   },
   {
     "Id": 5,
     "Name": "The Creator",
-    "Prompt": "/new",
-    "Description": "Scaffold code for a new workspace.",
-    "Type": "Command",
-    "Creator": "nicruo",
-    "CreatorGitHubHandle": "nicruo"
+    "Prompt": "@workspace /new create boilerplate for {Insert brief description about application or code}",
+    "Description": "Creates a new workspace in VS Code with necessary boilerplate for desired application or code",
+    "Type": "Generate Code",
+    "Creator": "Tomas Szabo",
+    "CreatorGitHubHandle": "tomasszabo"
+  },
+  {
+    "Id": 6,
+    "Name": "The Jupyter Joker",
+    "Prompt": "@workspace /newNotebook create a notebook to extract all my resource groups in azure, and a visualization with dataframe of the results",
+    "Description": "this prompt is an idea to generate cool jupyter notebooks for everything, and make use of /newNotebook feature of gh copilot, and with that, expand the concept of notebooks beyond the data engineers",
+    "Type": "Generate Code",
+    "Creator": "Renato Ribeiro",
+    "CreatorGitHubHandle": "RenatoSGR"
   }
 ]
