@@ -52,5 +52,23 @@
     "Type": "Generate Code",
     "Creator": "Renato Ribeiro",
     "CreatorGitHubHandle": "RenatoSGR"
+  },
+  {
+    "Id": 7,
+    "Name": "The Scribe of README",
+    "Prompt": "@workspace generate README.md",
+    "Description": "Generate a README.md file for your project based on the files in your workspace.",
+    "Type": "Generate Code",
+    "Creator": "José Medeiros",
+    "CreatorGitHubHandle": "nicruo"
+  },
+  {
+    "Id": 8,
+    "Name": "The Architect",
+    "Prompt": "@workspace create a diagram for the architecture of this project in mermaid and markdown",
+    "Description": "Generate a diagram for the architecture of this project in mermaid and markdown. You can pick the type of diagram and subject you want",
+    "Type": "Generate Code",
+    "Creator": "José Medeiros",
+    "CreatorGitHubHandle": "nicruo"
   }
 ]
