@@ -70,5 +70,14 @@
     "Type": "Generate Code",
     "Creator": "José Medeiros",
     "CreatorGitHubHandle": "nicruo"
+  },
+  {
+    "Id": 9,
+    "Name": "The Shapeshifter",
+    "Prompt": "Write this code in this other language: X",
+    "Description": "Translate the code in the active editor to another language. The language is specified by the user.",
+    "Type": "Generate Code",
+    "Creator": "José Medeiros",
+    "CreatorGitHubHandle": "nicruo"
   }
 ]
