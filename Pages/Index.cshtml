@@ -13,10 +13,11 @@
                 <div class="card-header border-primary bg-primary rounded-0 text-light" style="border-width:7px;">
                     <span class="text-secondary">@card.Id</span> @card.Name
                 </div>
+                <img style="height:240px" class="object-fit-cover" src="~/images/@(card.Id).jpeg" />
                 <div class="card-body">
                     <div class="card-text">
                         <p ><em>Prompt:</em></p>
-                        <div class="fw-bold text-dark" style="min-height:240px">
+                        <div class="fw-bold text-dark" style="min-height:140px">
                             <p id="prompt-@card.Id" >@card.Prompt</p>
                         </div>
                         <a class="btn btn-primary" asp-page="card" asp-route-id="@card.Id">Show Details</a>
