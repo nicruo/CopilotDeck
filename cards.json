@@ -79,5 +79,32 @@
     "Type": "Generate Code",
     "Creator": "José Medeiros",
     "CreatorGitHubHandle": "nicruo"
+  },
+  {
+    "Id": 10,
+    "Name": "The keybinding maniac",
+    "Prompt": "@vscode How can I configure a different keybinding for splitting the windows?",
+    "Description": "Customize the keybindings to your needs.",
+    "Type": "Generate Code",
+    "Creator": "Ruben Batista",
+    "CreatorGitHubHandle": "rubenbat"
+  },
+  {
+    "Id": 11,
+    "Name": "The cli enthusiast",
+    "Prompt": "@github How can I create an issue using the gh cmd line.",
+    "Description": "Get the most out of cmd line tools for github.",
+    "Type": "Generate Code",
+    "Creator": "Ruben Batista",
+    "CreatorGitHubHandle": "rubenbat"
+  },
+  {
+    "Id": 12,
+    "Name": "The old school editor",
+    "Prompt": "@vscode : how can I override neovim's lua configurations when using vscode?",
+    "Description": "Ask about how to set up vscode to your needs including plugins configurations.",
+    "Type": "Generate Code",
+    "Creator": "Ruben Batista",
+    "CreatorGitHubHandle": "rubenbat"
   }
 ]

@@ -10,7 +10,7 @@ namespace Decker.Services
         public CardService()
         {
             var json = File.ReadAllText("cards.json");
-            cards = JsonSerializer.Deserialize<List<PromptCard>>(json);
+            cards = JsonSerializer.Deserialize<List<PromptCard>>(json)!;
         }
 
         public List<PromptCard> GetCards()
@@ -21,7 +21,22 @@ namespace Decker.Services
 
         public PromptCard GetCardById(int id)
         {
-            return cards.FirstOrDefault(c => c.Id == id);
+            return cards.FirstOrDefault(c => c.Id == id)!;
+        }
+
+        public static string GetCardImageById(int id)
+        {
+            string images = $"wwwroot/images/";
+            string file = $"{images}{id}.jpeg";
+            string defaultImage = $"images/0.jpeg";
+            if (File.Exists(file))
+            {
+                return $"images/{id}.jpeg";
+            }
+            else
+            {
+                return defaultImage;
+            }
         }
     }
 }
